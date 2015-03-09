@@ -1,16 +1,45 @@
+header {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
 body {
     background: lightcyan;
     width: 800px;
     margin: auto;
 }
 
+main {
+    background: lightyellow;
+
+}
+
+.contact {
+    float: left;
+}
+
+.sitemap {
+    float: right;
+}
+
 h1 {
     color: maroon;
     text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 p {
     color: gray;
     border: 1px solid gray;
     padding: 10px;
+}
+
+li {
+    padding-top: 10px;
 }
